@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'nabin216', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -52,14 +52,14 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Asadur Zaman Nabin',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'asadur-zaman-nabin/',
+    //twitter: 'arif_szn',
+    //mastodon: 'arifszn@mastodon.social',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -69,18 +69,19 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    //medium: 'arifszn',
+    //dev: 'arifszn',
+    tryhackme: "asadurzamannabin",
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
+    telegram: 'asadurzamannabin1',
+    //website: 'https://www.arifszn.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'asadurzamannabin@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/13Wp3AUQJhfKg4eh62bRH_qvxmhgdTNT8/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -100,42 +101,56 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Eduskills Foundation',
+      position: 'PALO ALTO CYBERSECURITY VIRTUAL INTERNSHIP',
+      from: 'Apr 2024',
+      to: 'Jun 2024',
+      companyLink: 'https://drive.google.com/file/d/1iRP8rrCaixf7wN4OyXEQK6O3Khd8yxcJ/view',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      company: 'Eduskills Foundation',
+      position: 'Juniper Network Networking Virtual Internship',
+      from: 'Dec 2022',
+      to: 'Feb 2023',
+      companyLink: 'https://drive.google.com/file/d/1ZAUFiXUVA5BDraOFUyvKGha2OrkXxr5j/view',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'KL University',
+      degree: 'B.Tech in Computer Science & Engineering ',
+      from: '2021',
+      to: '2025',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Notre Dame College Mymensingh',
+      degree: 'Higher Secondary School Certificate (HSC), Science',
+
+      from: '2018',
+      to: '2020',
+    },
+    {
+      institution: 'Barhatta C.K.P Govt Pilot Hight School',
+      degree: 'Secondary School Certificate (SSC), Science',
+      from: '2013',
+      to: '2018',
     },
   ],
+  certifications: [
+    {
+      name: 'Juniper Networks Certified Associate, Junos (JNCIA-Junos)',
+      body: 'By Juniper',
+      year: 'May 2023 - 2026',
+      link: 'https://cp.certmetrics.com/juniper/en/public/verify/credential/61HR8TZ54FV4QRSD',
+    },
+    {
+      name: 'Google IT support professional certification',
+      body: 'The Bits and Bytes of Computer Networking · System Administration and IT Infrastructure Services · IT Security: Defense against the digital dark arts · Technical Support Fundamentals · Operating Systems and You: Becoming a Power User',
+      year: 'February 2023',
+      link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/69RWVWLH8NHT',
+    },
+  ],
+  
   publications: [
     {
       title: 'Publication Title',
@@ -234,11 +249,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `Thank you for visiting my profile`,
 
   enablePWA: true,
 };
